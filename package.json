@@ -1,0 +1,23 @@
+{
+  "name": "bole-snippet",
+  "displayName": "bole-snippet",
+  "description": "bole-code-snippet",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+    "release-it": "^15.5.1"
+  }
+}
