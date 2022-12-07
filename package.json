@@ -3,8 +3,12 @@
   "displayName": "bole-snippet",
   "description": "bole-code-snippet",
   "version": "0.0.1",
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
   "engines": {
-    "vscode": "^1.73.0"
+    "vscode": "^1.6.0"
   },
   "categories": [
     "Snippets"
@@ -17,7 +21,10 @@
       }
     ]
   },
-  "devDependencies": {
-    "release-it": "^15.5.1"
-  }
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zym2525/bole-snippet"
+  },
+  "publisher": "zym2525"
 }
