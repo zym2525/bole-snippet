@@ -5,7 +5,9 @@
   "version": "0.0.4",
   "scripts": {
     "build": "vsce package",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "vscepublish": "pnpm build && vsce publish",
+    "release": "release-it -- patch"
   },
   "engines": {
     "vscode": "^1.6.0"
@@ -34,5 +36,8 @@
     "type": "git",
     "url": "https://github.com/zym2525/bole-snippet"
   },
-  "publisher": "zym2525"
+  "publisher": "zym2525",
+  "devDependencies": {
+    "release-it": "^15.6.0"
+  }
 }
