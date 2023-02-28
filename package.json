@@ -2,7 +2,7 @@
   "name": "bole-snippet",
   "displayName": "bole-snippet",
   "description": "bole-code-snippet",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "scripts": {
     "build": "vsce package",
     "publish": "vsce publish",
