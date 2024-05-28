@@ -395,7 +395,7 @@
       "    if (valid) {",
       "      emit('onConfirm');",
       "    } else {",
-      "      return false;",
+      "      return;",
       "    }",
       "  });",
       "}",
